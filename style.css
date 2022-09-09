@@ -1,0 +1,20 @@
+.hidden{
+    max-height: 0;
+    font-size: 0;
+}
+
+#dropDown{
+    position: relative;
+    border: 1px black solid;
+    box-sizing: border-box;
+    width: max-content;
+}
+
+#dropDown :hover{
+    background-color: yellow;
+}
+
+#dropDown>.visible{
+    border: .1px black solid;
+}
+
